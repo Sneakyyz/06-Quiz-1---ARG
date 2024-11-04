@@ -1,0 +1,8 @@
+1. employee.salary = 50000;
+   director.salary = 80000;
+   manager.budget = 100000;
+   director.stockOptions = 1000;
+
+These are the only 4 statements that would work in line n1 since employee has salary, manager has budget and inherits salary from employee, and lastly, the director has stock options and inherits budget and salary from manager.
+
+2. No, since the original code did not compile because the "Cat" class inherits from the "Pet" class, and the "Pet" class only has the parameter of (int age). It needs super(0); in the "Cat" class for calling it to the "Pet," which allows the code to compile.
